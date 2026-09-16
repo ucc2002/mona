@@ -1,0 +1,21 @@
+{
+  "name": "ai-council-marketplace",
+  "interface": {
+    "displayName": "AI Council"
+  },
+  "plugins": [
+    {
+      "name": "ai-council",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ai-council"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL",
+        "products": ["CODEX"]
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
