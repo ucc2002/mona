@@ -1,0 +1,39 @@
+{
+  "name": "ai-council",
+  "version": "0.1.0",
+  "description": "Multi-model expert council for coding, QA/QC, UI/UX, architecture, security, and product review.",
+  "author": {
+    "name": "ucc2002",
+    "url": "https://github.com/ucc2002"
+  },
+  "homepage": "https://github.com/ucc2002/mona",
+  "repository": "https://github.com/ucc2002/mona",
+  "license": "MIT",
+  "keywords": [
+    "ai-council",
+    "coding",
+    "qa",
+    "qc",
+    "uiux",
+    "architecture",
+    "multi-model"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AI Council",
+    "shortDescription": "Multi-model coding, quality, and UI/UX council",
+    "longDescription": "AI Council routes substantial software tasks to specialist councils that consult all available connected models, cross-review their proposals, and return a consolidated implementation recommendation for coding, quality, UI/UX, architecture, and full-product work.",
+    "developerName": "ucc2002",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://github.com/ucc2002/mona",
+    "defaultPrompt": [
+      "Review this coding task with the AI Council.",
+      "Run a quality and regression review.",
+      "Review this feature across code, QA, and UI/UX."
+    ],
+    "brandColor": "#111111",
+    "screenshots": []
+  }
+}
