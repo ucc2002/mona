@@ -1,7 +1,7 @@
 {
   "name": "ai-council",
-  "version": "0.1.0",
-  "description": "Multi-model expert council for coding, QA/QC, UI/UX, architecture, security, and product review.",
+  "version": "0.1.1",
+  "description": "Multi-model AI council for coding, QA/QC, UI/UX, architecture, security, and product review using Gemini, Claude, Kimi, OpenRouter, Groq, OpenAI, and DeepSeek.",
   "author": {
     "name": "ucc2002",
     "url": "https://github.com/ucc2002"
@@ -16,22 +16,30 @@
     "qc",
     "uiux",
     "architecture",
-    "multi-model"
+    "multi-model",
+    "gemini",
+    "claude",
+    "kimi",
+    "openrouter",
+    "groq",
+    "openai",
+    "deepseek"
   ],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "AI Council",
-    "shortDescription": "Multi-model coding, quality, and UI/UX council",
-    "longDescription": "AI Council routes substantial software tasks to specialist councils that consult all available connected models, cross-review their proposals, and return a consolidated implementation recommendation for coding, quality, UI/UX, architecture, and full-product work.",
+    "shortDescription": "Multi-model council for coding, quality, UI/UX, and product decisions",
+    "longDescription": "AI Council coordinates Gemini, Claude, Kimi, OpenRouter, Groq, OpenAI, and DeepSeek for substantial software and product tasks. It routes coding, QA/QC, UI/UX, architecture, security, and full-product work to specialist councils, gathers independent proposals from all available models, performs cross-review, skips unavailable providers automatically, and returns one consolidated implementation recommendation.",
     "developerName": "ucc2002",
     "category": "Developer Tools",
     "capabilities": ["Interactive", "Read", "Write"],
     "websiteURL": "https://github.com/ucc2002/mona",
     "defaultPrompt": [
-      "Review this coding task with the AI Council.",
-      "Run a quality and regression review.",
-      "Review this feature across code, QA, and UI/UX."
+      "Review this coding task with all available AI Council models.",
+      "Run a QA/QC and regression review with the AI Council.",
+      "Review this UI/UX flow with all available AI Council models.",
+      "Review this feature across architecture, code, QA/QC, security, performance, and UI/UX."
     ],
     "brandColor": "#111111",
     "screenshots": []
